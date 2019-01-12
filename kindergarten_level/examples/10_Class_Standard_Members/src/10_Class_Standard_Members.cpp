@@ -3,17 +3,17 @@
 
 using namespace std;
 
-class MyInt
+class MyIntArray
 {
 public:
 	//! default constructor
-	MyInt()
+	MyIntArray()
 	{
 		mObjID = mCounterObjID++ ;
 		cout << "Call MyInt(), objID = " << mObjID << endl;
 	};
 	//some constructor
-	MyInt(std::initializer_list<int> il):
+	MyIntArray(std::initializer_list<int> il):
 	mSize(il.size())
 	{
 		mObjID = mCounterObjID++ ;
@@ -25,7 +25,7 @@ public:
 		}
 	}
 	//some constructor
-	MyInt(size_t sz):
+	MyIntArray(size_t sz):
 	mSize(sz)
 	{
 		mObjID = mCounterObjID++ ;
@@ -36,7 +36,7 @@ public:
 		}
 	}
 	//! copy constructor
-	MyInt(const MyInt& mi)
+	MyIntArray(const MyIntArray& mi)
 	{
 		mObjID = mCounterObjID++ ;
 		cout << "Call (const MyInt& mi), objID = " << mObjID << endl;
@@ -45,7 +45,7 @@ public:
 		memcpy( mBuff, mi.mBuff, mSize*sizeof(int) );
 	}
 	//! move constructor
-	MyInt(MyInt&& mi)
+	MyIntArray(MyIntArray&& mi)
 	{
 		mObjID = mCounterObjID++ ;
 		cout << "Call MyInt(MyInt&& mi), objID = " << mObjID << endl;
@@ -55,7 +55,7 @@ public:
 		mi.mSize = 0;
     }
 	//! operator=
-	MyInt& operator=(const MyInt& mi)
+	MyIntArray& operator=(const MyIntArray& mi)
 	{
 		cout << "Call operator=(const MyInt& mi), objID = " << mObjID << endl;
 		if(this != &mi){
@@ -66,7 +66,7 @@ public:
 		return *this;
 	}
 	//! destructor
-	~MyInt()
+	~MyIntArray()
 	{
 		cout << "Call ~MyInt(), objID = " << mObjID << endl;
 		delete[] mBuff;
@@ -79,12 +79,12 @@ private:
 	unsigned int mObjID;
 	static unsigned int mCounterObjID;
 
-	friend ostream& operator<< (ostream& o, const MyInt& mi);
+	friend ostream& operator<< (ostream& o, const MyIntArray& mi);
 };
 
-unsigned int MyInt::mCounterObjID = 0;
+unsigned int MyIntArray::mCounterObjID = 0;
 
-ostream& operator<< (ostream& o, const MyInt& mi)
+ostream& operator<< (ostream& o, const MyIntArray& mi)
 {
 	for(size_t i=0; i< mi.mSize;++i) {
 		o << mi.mBuff[i]<< " ";
@@ -96,35 +96,35 @@ int main()
 {
 	{
 		cout << endl;
-		MyInt mi;
+		MyIntArray mi;
 		cout << mi << endl;
 	}
 	{
 		cout << endl;
-		MyInt mi {20,10,251,4,-8};
+		MyIntArray mi {20,10,251,4,-8};
 		cout << mi << endl;
 	}
 	{
 		cout << endl;
-		MyInt mi(7);
+		MyIntArray mi(7);
 		cout << mi << endl;
 	}
 	{
 		cout << endl;
-		MyInt mi {1,2,3};
-		MyInt mi1 {mi};
+		MyIntArray mi {1,2,3};
+		MyIntArray mi1 {mi};
 		cout << mi1 << endl;
 	}
 	{
 		cout << endl;
-		MyInt mi1, mi {1,2,3};
+		MyIntArray mi1, mi {1,2,3};
 		mi1 = mi;
 		cout << mi1 << endl;
 	}
 	{
 		cout << endl;
-		MyInt mi {7,7,7};
-		MyInt mi1 = std::move(mi);
+		MyIntArray mi {7,7,7};
+		MyIntArray mi1 = std::move(mi);
 		cout << mi1 << endl;
 		cout << mi << endl;
 	}
