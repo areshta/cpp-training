@@ -20,3 +20,10 @@ int main() {
 
 	return 0;
 }
+
+/*
+    Task: Create summator.
+        It have to 
+        1. gets two numbers 
+        2. outputs the sum of them
+*/

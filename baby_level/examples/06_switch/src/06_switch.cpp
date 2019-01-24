@@ -27,3 +27,9 @@ int main() {
 		cout << "It is impossible! No chance to get here! Probably)" << endl;
 	}
 }
+
+/*
+    Task: Write a program that
+        1. inputs month number, outputs month name for correspondent input 
+           and error message for a wrong month number
+*/

@@ -39,3 +39,9 @@ int main() {
 
 	return 0;
 }
+
+/*
+    Task: Write a program that
+        1. inputs month number, outputs season for correct input, 
+           and error message for wrong month number.
+*/

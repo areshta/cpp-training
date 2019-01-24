@@ -33,3 +33,10 @@ int main() {
 
 	return 0;
 }
+
+
+/*
+    Task: Write a program that
+        1. counts sum of numbers from 1 to 100
+        2. output all numers 1 to 100 that is multiply by 3 (3,6,9,12...)
+*/

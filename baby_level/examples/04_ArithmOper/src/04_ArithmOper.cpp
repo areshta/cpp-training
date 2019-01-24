@@ -16,3 +16,10 @@ int main() {
 	cout << "Energy = "<< e << " J" << endl;
 	return 0;
 }
+
+/*
+    Task: Write a program that
+        1. calculates number of seconds in 2019 year
+        2. Number of bytes in 1MB
+        3. Weight of 1 liter of gold
+*/

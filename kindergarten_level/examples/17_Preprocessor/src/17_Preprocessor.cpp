@@ -25,7 +25,7 @@ inline T mult(const T& x, const T& y)
 	<< " msg:" << msg << endl
 
 #define def(name1, name2) name1 ## name2
-#define TOSTR(x) #x
+#define OUTPUT(val) cout << #val << " = " << val << endl
 
 int main() {
 
@@ -39,8 +39,11 @@ int main() {
 
 	int def(var,1) = 10;
 	int def(var,2) = 20;
-	cout << TOSTR(var1) << " = " << var1 << endl;
-	cout << TOSTR(var2) << " = " << var2 << endl;
+	cout << "var1 = " << var1 << endl;
+	cout << "var2 = " << var2 << endl;
+
+	double temperature  = 36.6;
+	OUTPUT(temperature);
 
 #ifdef WINOWS // compilation: C++ -DWINDOWS
 	cout << "For Windows only" << endl;

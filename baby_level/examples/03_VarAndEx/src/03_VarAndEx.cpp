@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() 
+{
 
 	char a = '0';
 	cout << "Zero char has the  ASCII hex code 0x" << hex << static_cast<int>(a) << endl;
@@ -22,3 +23,11 @@ int main() {
 
 	return 0;
 }
+
+/*
+    Task: Make some investigations
+        Try to find out by programming triks
+        1. Is char signed or unsigned in your program
+        2. How many letters in the English alphabet
+*/
+
