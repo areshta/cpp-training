@@ -47,11 +47,11 @@ int main()
 	cout << "\n===== strings ======\n";
 	outStrs(strs);
 
-	std::sort(strs.begin(), strs.end());
+	sort(strs.begin(), strs.end());
 	cout << "\n===== sort strings alphabetic ======\n";
 	outStrs(strs);
 
-	std::sort(strs.begin(), strs.end(),
+	sort(strs.begin(), strs.end(),
 		          [] (string const& a, string const& b) { return a.size() < b.size(); });
 
 	cout << "\n===== sort strings by length ======\n";
