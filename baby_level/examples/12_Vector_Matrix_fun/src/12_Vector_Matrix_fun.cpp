@@ -38,3 +38,15 @@ int main() {
 
 	return 0;
 }
+
+
+/*
+    Task: Copy this example as template
+        1. change init numbers by some positive and negative values
+        2. remove transp_matrix
+        3. add min_matrix function
+        3. find minimum element in the matrix using this function
+        4. output results
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.

@@ -29,3 +29,20 @@ int main()
 
 	return 0;
 }
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task: Write a program that
+        1. inputs some numbers from console and store them in vector (use push_back function)
+        2. zero number cause end of input
+        3. outputs numbers in file "number.txt"
+        After ending of the program find the file in your system
+        (it could be present in the binary execution folder)
+        and verify content.
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.

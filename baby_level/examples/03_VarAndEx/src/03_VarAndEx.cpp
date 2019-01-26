@@ -24,10 +24,18 @@ int main()
 	return 0;
 }
 
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
 /*
     Task: Make some investigations
-        Try to find out by programming triks
+        Try to find out by programming tricks
         1. Is char signed or unsigned in your program
         2. How many letters in the English alphabet
 */
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.
 

@@ -32,3 +32,17 @@ int main() {
 
 	return 0;
 }
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task: Write a program that
+        1. initiates matrix by some integer negative and positive numbers
+        2. finds max and min values in the matrix
+        3. outputs results
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.

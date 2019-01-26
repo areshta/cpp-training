@@ -37,3 +37,20 @@ int main() {
 	cout << "Before end" << endl;
 	return 0;
 }
+
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task: Write a program that demonstrates working with classes
+        1.Choose some subject that is interesting for you
+        2. The class have to have 2 fields: string and double
+        3. The class have to have output function
+        4. Create 2 objects of this class
+        5. Output them
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.

@@ -22,8 +22,16 @@ int main() {
 }
 
 /*
-    Task: Create summator.
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task: Create adder.
         It have to 
-        1. gets two numbers 
+        1. gets two integer numbers (declaring example: int a;)
         2. outputs the sum of them
 */
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.
+

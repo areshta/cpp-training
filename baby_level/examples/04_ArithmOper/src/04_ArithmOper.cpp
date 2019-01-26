@@ -17,9 +17,18 @@ int main() {
 	return 0;
 }
 
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
 /*
     Task: Write a program that
         1. calculates number of seconds in 2019 year
-        2. Number of bytes in 1MB
-        3. Weight of 1 liter of gold
+        2. calculates number of bytes in 1MB
+        3. calculates weight of 1 liter of gold
 */
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.
+

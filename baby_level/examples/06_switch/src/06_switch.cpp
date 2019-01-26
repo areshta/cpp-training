@@ -29,7 +29,15 @@ int main() {
 }
 
 /*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
     Task: Write a program that
         1. inputs month number, outputs month name for correspondent input 
            and error message for a wrong month number
 */
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.
+

@@ -32,3 +32,18 @@ int main() {
 
 	return 0;
 }
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task: Write a program that
+        1. initiates vector by some integer negative and positive numbers
+        2. calculates sum of negative numbers
+        3. replaces all negative numbers by there absolute velues
+        4. outputs results
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.
