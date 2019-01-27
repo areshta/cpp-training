@@ -46,3 +46,19 @@ int main() {
 	sm.Print();
 	return 0;
 }
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task "Herarhy-1": Chose some topic for herarhy. Some examples:
+    	plant -> tree -> oak
+    	animal -> bird -> sparrow
+    	language -> program language -> Python
+    	etc.
+    	Write a program that demonstrates herarhy using
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.

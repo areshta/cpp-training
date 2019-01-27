@@ -80,7 +80,6 @@ private:
 	size_t mSize = 0;
 };
 
-
 int main()
 {
 	MyArray<int> mint {20,10,251,4,-8};
@@ -94,3 +93,17 @@ int main()
 
 	return 0;
 }
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+ 	Task: Make class-template of 2-dimensional Point that
+ 		  1. can store point as 2 digital values
+ 		  2. has constructor with 2 parameters for x and y
+ 		  3. Print function, that outputs x,y to cout
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.

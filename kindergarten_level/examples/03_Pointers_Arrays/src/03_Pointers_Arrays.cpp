@@ -33,5 +33,20 @@ int main()
 
 	delete[] pArray;
 	//delete pArray - bad idea
-	//delete pOther - very bad idea
+	//delete pOther after deleting pArray- very bad idea
 }
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task: Please write a program that:
+    1. Creates a dynamic array and fills it by all small chars of English alphabet a-z
+    2. Enters zero after 'z' ( it can be integer 0 or symbol '\0' ) to finish the string.
+    3. Outputs the array as string
+    4. Frees the array memory before the program ends
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.

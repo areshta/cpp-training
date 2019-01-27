@@ -16,3 +16,18 @@ int main() {
 
 	return 0;
 }
+
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task:
+    	Create template function "last" that returns position of
+    	the last element of vector of any elements type.
+    	Write a program that demonstrate its work
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.

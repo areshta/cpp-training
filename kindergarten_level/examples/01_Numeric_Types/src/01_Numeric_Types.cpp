@@ -14,8 +14,8 @@ int main() {
 			<< numeric_limits<double>::lowest() << '\t'	<< numeric_limits<double>::max() << '\n';
 
 	//size of
-	cout << "\nDo not use int! It takes "<< sizeof(int)<< " bites for your platform only!" << endl;
-	cout << "\nUse defined size int, as int8_t, it has " << sizeof(int8_t) << " bites always!" << endl;
+	cout << "\nDo not use int! It takes "<< sizeof(int)<< " bytes for your platform only!" << endl;
+	cout << "\nUse defined size int, as int8_t, it has " << sizeof(int8_t) << " bytes always!" << endl;
 
 	cout << "\n\nUse for the for loop variable size_t instead int. It has actual range of array size for your system! ";
 	cout << "size_t range: "
@@ -36,6 +36,21 @@ int main() {
 	int16_t aa = 1024;
 	int8_t bb = aa;
 	cout << "\nTruncation: " << static_cast<int>(bb) << endl;
-
 	return 0;
 }
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task: Try calculate
+    	c = (a * b) / (d * e)
+    	where a, b, c, d, e are int type.
+		a = 2000000000; b = 2000000000; d = 2000000; e = 2000000;
+		Do we have correct result?
+		If not, how change the formula without changing variables type for getting right answer?
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.

@@ -62,3 +62,16 @@ int main() {
 
 	return 0;
 }
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task: Create type alias for 3D matrix based on vector.
+     	  Fill the matrix3 of size 2x2x2 elements by values
+     	  {{111, 112}, {121, 122}}, {{211, 212}, {221, 222}}
+     	  Output matrix.
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.

@@ -57,3 +57,18 @@ int main() {
 
 	return 0;
 }
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task: "Old style output".
+     There is some digital value.
+     Write a function that outputs this value in bit format.
+     Restriction: using of bitset is disable.
+     You could use loop and shift operations.
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.

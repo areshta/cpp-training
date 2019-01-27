@@ -52,3 +52,18 @@ int main() {
 
 	return 0;
 }
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task: Investigate float and double literal constants. Please write a program that:
+    1. Outputs size of float and double
+    2. Outputs minimum and maximum values for float and double.
+    3. Tries initiate double variable by literal with exponential format and without it
+    4. Tries assign float to int. How it will be done: by truncation or rounding?
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.

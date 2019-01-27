@@ -88,3 +88,19 @@ int main() {
 */
 	return 0;
 }
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task: Use the previous solution for task "Task "Parsing to map"
+    	Put algorithm of parsing string in some function.
+    	Throw exception from function if "integer value" > 10000
+    	Catch exception in the main function, output value that cause the error and continue parsing.
+    	Change your data file: it must includes "wrong" value.
+
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.

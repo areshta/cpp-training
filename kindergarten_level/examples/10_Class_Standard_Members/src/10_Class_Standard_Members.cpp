@@ -130,3 +130,22 @@ int main()
 	}
 	return 0;
 }
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task "Herarhy-3": Get previous project ("Herarhy-2")
+    Increase classes by
+    	Dynamic data  with allocation/ releasing
+		constructor
+		copy constructor
+		move constructor
+		operator=
+		destructor
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.
+

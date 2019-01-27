@@ -57,3 +57,20 @@ int main()
 
 	return 0;
 }
+
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task1: Make some investigations
+        1. Create two any functions and find difference between its pointers
+        2. Declare and define two char variables and find difference between its pointers
+        3. Declare and define two double variables and find difference between its pointers
+    Task 2:
+        1. Fill vector by some numbers, find the minimum value using "?:" operator
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.

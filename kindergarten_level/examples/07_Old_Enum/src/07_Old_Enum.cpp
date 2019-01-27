@@ -31,3 +31,26 @@ int main()
 			bad_value = -1
 		};
 }
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task "Traffic light Modeling". Write the program that
+        1. Declares Traffic light colors "red", "yellow", "green", "blinking green" as enum.
+        2. Enters number of Traffic light loops.
+        3. Enters initial state (with verification that state is possible)
+        4. Output loops result.
+        5. Example
+         	 Input:
+         	 	 loops number: 3
+         	 	 initial: yellow
+         	 Output:
+				 yellow -> green -> blinking green -> red
+				 yellow -> green -> blinking green -> red
+				 yellow -> green -> blinking green -> red
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.

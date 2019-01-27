@@ -52,3 +52,18 @@ int main()
 	C::cout << "Input integer: " << C::endl;
 	C::cin >> i; // OK
 }
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task: Create own "small" vector implementation in own namespace.
+    Creating vector as "stl vector" is long task.
+    So we have next restrictions:
+        Your vector has 10 elements only (no dynamic allocation).
+        operation[] is implemented only.
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.
