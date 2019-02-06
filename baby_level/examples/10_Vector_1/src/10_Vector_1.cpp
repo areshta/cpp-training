@@ -19,6 +19,7 @@ int main() {
 	for(size_t i=1; i < v.size(); ++i){
 		if ( min > v[i] ){
 			min = v[i];
+			min_index = i;
 		}
 	}
 	cout << "\nv min = " << min << ";  in position = " << min_index << endl;
