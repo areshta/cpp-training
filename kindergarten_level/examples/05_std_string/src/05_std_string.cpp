@@ -37,3 +37,16 @@ int main() {
 
 	return 0;
 }
+
+/*
+    Advise: To be efficient please aviod copy/past of code of the example while making tasks!
+    		Start from scratch and your mind will training better.
+*/
+
+/*
+    Task: Create the program that
+        1. Reads from text file your lovely poetry
+        2. Calculates number of points and commas in the text
+*/
+
+// Copyfree (F) By Oleksii Reshta (areshta). No rights reserved.
