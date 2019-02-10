@@ -18,7 +18,7 @@ int main() {
 
 	for(size_t i=0; i < matrix.size();++i){
 		for(size_t j=i+1; j< matrix[i].size(); ++j){
-			exchange(matrix[i][j], matrix[j][i]);
+			swap(matrix[i][j], matrix[j][i]);
 		}
 	}
 
@@ -41,7 +41,7 @@ int main() {
 /*
     Task: Write a program that
         1. initiates matrix by some integer negative and positive numbers
-        2. finds max and min values in the matrix
+        2. find max and min values in the matrix
         3. outputs results
 */
 

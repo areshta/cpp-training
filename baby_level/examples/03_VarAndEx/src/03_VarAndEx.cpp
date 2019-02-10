@@ -11,7 +11,7 @@ int main()
 	int c = 4;
 	cout << "Result of int devision is int: 5/4 = " << b/c << endl;
 	double d = b / static_cast<double>(c); // if we do not need truncation
-	cout << "Devision without truncation" << c;
+	cout << "Devision without truncation" << d << endl;
 
 	unsigned int ux = static_cast<unsigned>(-1);
 	cout << "Surprise! -1 as unsigned int = " << dec << ux << "  or in hex 0x" << hex << ux << endl;
