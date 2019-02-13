@@ -54,7 +54,7 @@ int main() {
     1) add other child class
     2) add some virtual function in the parent and children classes
     3) create array of pointers of the parent class type that point children objects
-    4) call virual functions in some loop
+    4) call virtual functions in some loop
     5) free objects memory
 
 */
