@@ -14,10 +14,13 @@ void run(int num, int steps)
 
 	for(int i=0; i<steps; i++){
 		{
-			unique_lock<mutex> locker(g_lock);
-			cout << "thread num:" << num << "    step:"<< i << endl;
+			lock_guard<mutex> locker(g_lock);
+			//unique_lock<mutex> locker(g_lock); //other locker
+			cout << "1111 thread num:" << num <<" Thread ID:" << this_thread::get_id()<<"    step:"<< i << endl;
+			this_thread::sleep_for(20ms); // for c++14 and later
+			cout << "2222 thread num:" << num << endl <<endl;
 		}
-		this_thread::sleep_for(200ms); // 200ms for c++14 and later
+		this_thread::sleep_for(20ms); // 200ms for c++14 and later
 	}
 }
 
