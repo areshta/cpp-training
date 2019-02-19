@@ -60,6 +60,7 @@ public:
 		cout << "Call operator=(const MyInt& mi), objID = " << mObjID << endl;
 		if(this != &mi){
 			mSize = mi.mSize;
+            delete[] mBuff;
 			mBuff = new int[mSize];
 			memcpy( mBuff, mi.mBuff, mSize*sizeof(int) );
 		}
